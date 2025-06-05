@@ -1,0 +1,6 @@
+_target_: sn_gamestate.jersey.custom_ocr.CustomOCR
+
+cfg:
+  parseq_path: OCR/parseq_epoch=24-step=2575-val_accuracy=95.6044-val_NED=96.3255.ckpt
+  pose_model_path: OCR/yolo11l-pose.pt
+  legibility_model_path: OCR/legibility_resnet34_soccer_20240215.pth

@@ -1,0 +1,9 @@
+_target_: tracklab.wrappers.YOLOv8Dual
+batch_size: 4
+
+cfg:
+  path_to_player_checkpoint: "${model_dir}/yolo/yolo11l.pt"
+  path_to_ball_checkpoint: "/Users/jeangrifnee/PycharmProjects/soccernet/Finetuning/finetuning_ball_detection2/fine_tuned/weights/best.pt"
+  tile_size: 384
+  min_confidence: 0.3
+  detect_ball: false

@@ -1,0 +1,7 @@
+# data.yaml
+path: /Users/jeangrifnee/PycharmProjects/soccernet/dataset_ball_only
+train: images/train
+val: images/valid
+nc: 1
+names: ["ball"]
+# weights: [1.0, 4.0]
