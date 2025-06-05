@@ -1,0 +1,62 @@
+# Environnements virtuels
+.venv/
+.venv1/
+.testingenv/
+pretrained_models/
+examples_predictions/
+# Fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Fichiers de données (potentiellement lourds)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.json
+*.joblib
+*.parquet
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.txt
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.onnx
+# Ignore toutes les images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+# Vidéos et médias lourds
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.gif
+*.webm
+*.wav
+*.mp3
+
+# Dossiers de sortie / logs / tracking
+runs/
+outputs/
+logs/
+wandb/
+
+# Fichiers de TensorBoard
+events.out.*
+
+# macOS / IDE spécifiques
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+*.swp
+*.swo
